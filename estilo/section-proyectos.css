@@ -1,32 +1,48 @@
 /*🆂🆃🆈🅻🅴🆂 🅵🅾🆁 🆂🅴🅲🆃🅸🅾🅽🆂*/
-
+:root{
+  --borde-elemento: 1px solid black;
+}
 
           /*SECCIÓN PROYECTOS*/
+        .proyectos-recientes{
+          border: var(--borde-elemento);
+          padding: 2em;
+          width: 100%;
+        }
+
         .seccion-descripcion{
           font-size: 1.2rem;
           color:#584e4e;
           margin-top: 2px;
-        }
-
-        .proyectos-recientes{
-          border: 2px dashed #0a0a23;
-          padding: 2em;
-          width: 100%;
-
+          border: var(--borde-elemento);
         }
 
         .proyectos-recientes img{
-          width: 100%;
-          height: 100%;
-          padding: 10px;
+          width: 290px;
+          height: 230px;
+          padding: 1px;
+          margin: 10px;
           border-radius: 20px;
           display: block;
           transition: all .2s ease;
         }
 
         .proyectos-contenedor{
-          padding-top: 20px;
-          margin-bottom: 20px;
+          /*padding-top: 20px;
+          margin-bottom: 20px;*/
+          background-color: brown;
+          border: var(--borde-elemento);         
+          
+          
+          width: 100%;
+          padding: 0px;
+          display: flex;
+          flex-direction: row;
+          justify-content:center;
+          flex-wrap: wrap;
+          
+
+
         }
 
         .overlay{
