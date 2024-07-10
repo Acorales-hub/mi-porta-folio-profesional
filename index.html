@@ -1,11 +1,278 @@
-<DOCTYPE!>
-<html>
-  <head>  
-    <title>Hola mundo</title>
-  </head>
-  <body>
-    <main>
-      <h1>Hola Mundo</h1>
-    </main>
-  </body>
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!--METADATO CODIFICACIÓN CARATÉRES Y ACENTOS--><meta charset="UTF-8">
+        <!--METADATO VIEWPORT--><meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!--METADATO AUTOR--><meta name="author" content="Ing. Asdrubal J. Corales P.">
+        <!--METADATO DESCRIPCIÓN--><meta name="description" content="Portafolio profesional de Ing. Asdrubal Corales">
+        <!--METADATO PALABRAS CLAVES--><meta name="keywords" content="Html, Css, Bootstrap, React, Node, Typescript">
+        <!--METADATO VENTANA DEL NAVEGADOR--><meta name="viewport" content="width=device-width, initial-scale-1">
+        <!--METADATO QUE INDICA LA VER IExplorer QUE RENDERIZA EL WEBSITE.--><meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--TÍTULO PESTAÑA--><title>Porta Folio | A. Corales P.</title>
+        <!--FAVICON PESTAÑA--><link rel="icon" type="image/x-icon" href="img/favicon-a-color.png"/>
+        <!--BOOSTRAP STYLE CDN--><!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">-->
+        <!--BOSSTRAP ICONS CDN--><!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">-->
+        <!--BOOSTRAP--><link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <!--BOOSTRAP ICON--><link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+        <!--CSS--><link rel="stylesheet" href="estilo/estilo.css">
+        <!--GOOGLE FONTS-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Exo:ital,wght@0,100..900;1,100..900&family=Rubik+Dirt&display=swap" rel="stylesheet">
+    </head>
+    <body >
+        <header class="container-fluid" id="fondoGradientAzul"> <!--HEADER: menú principal entre otros-->
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-md navbar-light" id="fondoGradientVinoTinto">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbar-toggler">
+                                
+                                <a class="navbar-brand text-light" rel="noopener noreferrer"> 
+                                    <img src="img/favicon-a-color.png" class="mb-2" width="50" alt="Logo">
+                                    <span class="ephesis-regular">Ing. Asdrubal J. Corales P.</span>
+                                </a>
+                                <ul class="navbar-nav d-flex justify-content-center align-items-center" id="link-header">
+                                    <li class="nav-item">
+                                        <a class="nav-link active text-light" aria-current="page" href="#" rel="noopener noreferrer">Sobre mí.</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="#" rel="noopener noreferrer">Poyectos.</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link enable text-light" href="#" aria-disabled="true" rel="noopener noreferrer">Testimonios.</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link enable text-light" href="#pie-pagina" aria-disabled="true" rel="noopener noreferrer">Contactame.</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header><!--Fin header-->
+
+        <main class="container-fluid"><!--Contenido principal-->
+        
+          <div class="row" id="fondo-deg-hero"><!--[Sección Hero]-->
+            <div class="col-12">
+              <section>
+                <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+                  <img class="imagen-hero-desarrollador rounded-circle" src="img/desarrollador-ejemplo.svg" alt="foto de Asdrubal Corales">
+                  <h1 class="rubik-dirt-regular">Hola, soy Asdrubal Corales.</h1>
+                  <h2>Soy desarrollador de software e instructor de informática. Me gusta enseñar, aprender y ayudar a otros a darse cuenta de lo increíble y poderosa que puede ser la programación. </h2>
+                </div>
+                <div class="hero-inferior">
+                  <img src="img/hero-inferior.svg" class="hero-inferior-imagen img-fluid" alt="Monitor, laptop, Html,Css, Javascript,React">
+                </div>
+              </section>
+            </div>
+          </div><!--[Fin, sección Hero]-->
+
+          <div class="row seccion-oscura"><!--[Sección "Sobre mí"]-->
+            <div class="col-12">
+              <section class="sobre-mi ">
+                <div class="contenedor">
+                  <h2 class="rubik-dirt-regular text-light">Conoce a Asdrubal Corales.</h2>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+              </section>
+            </div>
+          </div><br><!--[Fin Sección "Sobre mí"]-->
+
+          <div class="container-fluid experiencia seccion-clara"><!--[Sección "Experiencia"]-->
+            <div class="row text-center">
+              <!--[DESARROLLO WEB]-->
+                <div class="columna col-12 col-md-4">
+                  <i class="bi bi-laptop"></i>
+                  <p class="experiencia-titulo">Desarollo Web.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac vestibulum sapien. Ut bibendum risus libero, sit amet convallis sapien feugiat a. Aliquam egestas nulla id elit elementum cursus... </p>
+                  <div class="badges-contenedo">
+                    <span class="badge text-bg-primary">HTML</span>
+                    <span class="badge text-bg-primary">CSS</span>
+                    <span class="badge text-bg-primary">JAVASCRIPT</span>
+                    <span class="badge text-bg-primary">REACT JS</span>
+                    <span class="badge text-bg-primary">NODE JS</span>
+                  </div>
+                </div><!--[FIN DESARROLLO WEB]-->
+
+                <div class="columna col-12 col-md-4"><!--[ARTÍCULOS WEB]-->
+                  <i class="bi bi-alphabet"></i>
+                  <p class="experiencia-titulo">Artículos.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac vestibulum sapien. Ut bibendum risus libero, sit amet convallis sapien feugiat a. Aliquam egestas nulla id elit elementum cursus... </p>
+                  <div class="badges-contenedo">
+                    <span class="badge text-bg-primary">Escribir</span>
+                    <span class="badge text-bg-primary">Editar</span>
+                    <span class="badge text-bg-primary">Blogs</span>
+                  </div>
+                </div><!--[FIN ARTÍCULOS WEB]-->
+
+                <div class="columna col-12 col-md-4"><!--[ESTUDIANTE WEB]-->
+                  <i class="bi bi-book"></i>
+                  <p class="experiencia-titulo">Estudiante.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac vestibulum sapien. Ut bibendum risus libero, sit amet convallis sapien feugiat a. Aliquam egestas nulla id elit elementum cursus... </p>
+                  <div class="badges-contenedo">
+                    <span class="badge text-bg-primary">FreeCodeCamp</span>
+                    <span class="badge text-bg-primary">Desarrollo Web</span>
+                    <span class="badge text-bg-primary">Ambiente Javascritp</span>
+                  </div>
+                </div><!--[FIN ESTUDIANTE WEB]-->
+              
+              </div><!---[Fin de la fila de row]--->
+            </div>
+          </div><!--[Fin Sección "Experiencia"]-->
+          
+          <div class="container proyectos-recientes seccion-clara d-flex flex-column justify-content-center align-items-center"><!--[Sección Proyectos]-->
+            <section class="row">
+              <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+              <h3 class="seccion-descripcion">Estos son algunos de los proyectos que he creado recientemente.</h3>
+              <div class="container text-center proyectos-contenedor">
+                <div class="row">
+                  <div class="col-12 col-md-6 col-lg-4"><!--Proyecto 01-->
+                    <div class="proyecto">
+                      <img src="img/proyecto1.png" alt="Proyecto 1">
+                      <div class="overlay">
+                        <p>Proyecto Portafolio</p>
+                        <div class="iconos-contenedor">
+                          <a href="https://github.com/Acorales-hub/mi-porta-folio.git" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github"></i>
+                          </a>
+                          <a href="#" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-laptop"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!--Fin proyecto 01-->
+                  <div class="col-12 col-md-6 col-lg-4"><!--Proyecto 02-->
+                    <div class="proyecto">
+                      <img src="img/proyecto2.png" alt="Proyecto 2">
+                      <div class="overlay">
+                        <p>Proyecto 02</p>
+                        <div class="iconos-contenedor">
+                          <a href="#" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github"></i>
+                          </a>
+                          <a href="#" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-laptop"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!--Fin proyecto 02-->
+                  <div class="col-12 col-md-6 col-lg-4"><!--Proyecto 03-->
+                    <div class="proyecto">
+                      <img src="img/proyecto3.png" alt="Proyecto 3">
+                      <div class="overlay">
+                        <p>Proyecto 03</p>
+                        <div class="iconos-contenedor">
+                          <a href="#" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github"></i>
+                          </a>
+                          <a href="#" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-laptop"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!--Fin proyecto 03-->
+                  <div class="col-12 col-md-6 col-lg-4"><!--Proyecto 04-->
+                    <div class="proyecto">
+                      <img src="img/proyecto4.png" alt="Proyecto 4">
+                      <div class="overlay">
+                        <p>Proyecto 04</p>
+                        <div class="iconos-contenedor">
+                          <a href="#" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github"></i>
+                          </a>
+                          <a href="#" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-laptop"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!--Fin proyecto 04-->
+                  <div class="col-12 col-md-6 col-lg-4"><!--Proyecto 05-->
+                    <div class="proyecto">
+                      <img src="img/proyecto5.png" alt="Proyecto 5">
+                      <div class="overlay">
+                        <p>Proyecto 05</p>
+                        <div class="iconos-contenedor">
+                          <a href="#" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github"></i>
+                          </a>
+                          <a href="#" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-laptop"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!--Fin proyecto 05-->
+                  <div class="col-12 col-md-6 col-lg-4"><!--Proyecto 06-->
+                    <div class="proyecto">
+                      <img src="img/proyecto6.png" alt="Proyecto 6">
+                      <div class="overlay">
+                        <p>Proyecto 06</p>
+                        <div class="iconos-contenedor">
+                          <a href="#" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github"></i>
+                          </a>
+                          <a href="#" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-laptop"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!--Fin proyecto 06-->
+                </div><br>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="nav-link text-light">
+                  <button type="button" class="btn btn-info">
+                    Ver más proyectos
+                    <span>
+                      <i class="bi bi-arrow-right-circle-fill"></i>
+                    </span>
+                  </button>
+                </a>
+              </div>
+            </section>
+          </div><!--[Fin Sección Proyectos]-->
+
+
+        </main><br><!--Fin del contenido principal-->
+
+        <footer class="text-light" id="fondoGradientAzul"><!--Píe de página del portafolio-->
+            <div class="row" id="pie-pagina">
+                <div class="col-3">
+                    <h6>Social media</h6>
+                    <ul>
+                        <li><i class="bi bi-linkedin"></i><a href="https://www.linkedin.com/in/asdrubal-josé-corales-pérez-735391205" target="_blank" rel="noopener noreferrer"> Ascor</a></li>
+                        <li><i class="bi bi-facebook"></i><a href="https://www.facebook.com/acorales" target="_blank" rel="noopener noreferrer"> acorales</a></li>
+                    </ul>
+                    <div>
+                        <a href="#fondoGradientAzul" class="nav-link text-light" rel="noopener noreferrer" placeholder="Subir">
+                        <i class="bi bi-box-arrow-up"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <h1>Footer</h1>
+                </div>
+                <div class="col-3">
+                    <div class="card" id="qrFooterCard">
+                        <img src="img/miQRwhatsapp.jpeg" alt="Código QR no disponible" class="card-img-top">
+                        <div class="card-body">
+                        <i class="bi bi-whatsapp"> +58 412-4811678</i>
+                        <h5 class="card-title">Mi whatsapp</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer><!--Fin del píe de página del porta folio-->
+        <!--BOOSTRAP BOUNDLE.JS CDN--><!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>-->
+        <!--BOOSTRAP MIN.JS--><script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
 </html>
