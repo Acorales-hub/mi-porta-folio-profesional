@@ -1,0 +1,18 @@
+/*ESTILOS GENERALES*/
+
+body {display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100%;
+    margin: auto;
+    background-color: #d9dbdd;
+}
+
+
+
+
+.fondoGradientAzul {
+    --fondo-gradient-azul:linear-gradient(135deg,#1b1b32 20%, #214c7d 0%,#2178bf 39%,#0f599a 60%,#1b4e74 100%);
+    color: white;
+    background: var(--fondo-gradient-azul)
+}/*FIN DE LOS ESTILOS GENERALES*/

@@ -1,0 +1,22 @@
+/*🆂🆃🆈🅻🅴🆂 🅵🅾🆁 🆂🅴🅲🆃🅸🅾🅽🆂*/
+
+          /*SECCIÓN EXPERIENCIA*/
+          .section-experiencia{border: 2px dotted #0f599a; 
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            
+            }
+            @media screen and (max-width:657px){
+            
+            }
+  .section-experiencia div{border: 1px solid #0a0a23; padding: 0.9em; border-radius: 5px; width: 33%; margin: 1px;
+  background-color: #f5f5fb; text-align: center;}
+  .section-experiencia div:hover{ background-color: #0a0a23; color: white;  transition: all 0.2s ease-in;}
+  .section-experiencia div:hover a{ color: white;}
+  .section-experiencia a:hover{text-decoration: underline;}
+  .section-experiencia i{ padding: 10px; font-size: 30px; border-radius: 50%;}
+  .section-experiencia div:hover i{ background-color: #7ade30; color: #0a0a23;}
+  .section-experiencia h1,h2,h3,p{text-align: center; margin: 15px;}
+  /*FIN, SECCION EXPERIENCIA*/

@@ -1,0 +1,10 @@
+/*S̅T̅Y̅L̅E̅ H̅E̅A̅D̅E̅R̅*/
+.cabecera{ overflow: -moz-hidden-unscrollable auto; height: 110px; padding: 1rem;}
+.cabecera a{ color: white;}
+.cabecera a:hover{color: #e8e8f0; text-decoration: underline;}
+.cabecera div{padding: 1px;}
+.page-header{ margin: auto; display: -webkit-inline-flex; margin-top: 0.3em; text-align: center;}
+.page-header img{padding: 4px;}
+@media screen and (max-width:1299px){
+    .page-header img{display: none;}
+}/*E̲N̲D̲ S̲T̲Y̲L̲E̲ H̲E̲A̲D̲E̲R̲*/

@@ -1,0 +1,74 @@
+/*🆂🆃🆈🅻🅴🆂 🅵🅾🆁 🆂🅴🅲🆃🅸🅾🅽🆂*/
+
+
+          /*SECCIÓN PROYECTOS*/
+        .seccion-descripcion{
+          font-size: 1.2rem;
+          color:#584e4e;
+          margin-top: 2px;
+        }
+
+        .proyectos-recientes{
+          border: 2px dashed #0a0a23;
+          padding: 2em;
+          width: 100%;
+
+        }
+
+        .proyectos-recientes img{
+          width: 100%;
+          height: 100%;
+          padding: 10px;
+          border-radius: 20px;
+          display: block;
+          transition: all .2s ease;
+        }
+
+        .proyectos-contenedor{
+          padding-top: 20px;
+          margin-bottom: 20px;
+        }
+
+        .overlay{
+          transition: all .2s ease-in;
+          opacity: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          text-align: center;
+        }
+
+        .overlay p{
+          font-size: 28px;
+          font-weight:bold;
+          border-bottom: 0px;
+        }
+
+        .overlay .iconos-contenedor{
+          display: flex;
+        }
+
+        .overlay i{
+          color: black;
+          font-size: 60px;
+          margin: 10px;
+        }
+
+        .proyecto{
+          position: relative;
+
+        }
+        
+
+
+        .proyecto:hover img{
+          opacity: 0.3;
+          
+        }
+
+        .proyecto:hover .overlay{
+          opacity: 1;
+
+        }
+      /*FIN DE LA SECCIÓN PROYECTOS*/
