@@ -14,25 +14,26 @@
           font-size: 1.2rem;
           color:#584e4e;
           margin-top: 2px;
-          border: var(--borde-elemento);
+          padding: 3px;
+          /*border: var(--borde-elemento);*/
         }
 
         .proyectos-recientes img{
           width: 290px;
           height: 230px;
-          padding: 1px;
+          padding: 3px;
           margin: 10px;
           border-radius: 20px;
           display: block;
           transition: all .2s ease;
+          background-color: #1b1b32;
         }
 
         .proyectos-contenedor{
           /*padding-top: 20px;
-          margin-bottom: 20px;*/
+          margin-bottom: 20px;
           background-color: brown;
-          border: var(--borde-elemento);         
-          
+          border: var(--borde-elemento);*/         
           
           width: 100%;
           padding: 0px;
@@ -41,8 +42,6 @@
           justify-content:center;
           flex-wrap: wrap;
           
-
-
         }
 
         .overlay{
@@ -71,20 +70,24 @@
           margin: 10px;
         }
 
+        .overlay i:hover{
+          color: #e2e2ea;
+          background-color: #0a0a0a;
+          border-radius: 100%;
+        }
+
         .proyecto{
           position: relative;
-
         }
         
 
-
         .proyecto:hover img{
           opacity: 0.3;
+          border: var(--borde-elemento);
           
         }
 
         .proyecto:hover .overlay{
           opacity: 1;
-
         }
       /*FIN DE LA SECCIÓN PROYECTOS*/
