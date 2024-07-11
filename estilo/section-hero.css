@@ -1,17 +1,45 @@
 /*🆂🆃🆈🅻🅴🆂 🅵🅾🆁 🆂🅴🅲🆃🅸🅾🅽🆂*/
 
   /*𝖘𝖊𝖈𝖙𝖎𝖔𝖓 𝖍𝖊𝖗𝖔*/
+  :root{
+    --borde-elemento: 1px solid black;
+  }
     /*SELECTOR DE TIPO:*/
     section { display: flex; flex-direction: column; align-items: center;
         justify-content: center; margin:5px; width: 50%;}
- /*SELECTORES DE CLASE:*/
+  /*SELECTORES DE CLASE:*/
     .sectionHero{padding: 3rem; margin: auto; justify-content: center; text-align: center;}
     .sectionHero img{ padding: 0px; height: 10em; width: 10em; border-radius: 50%; background: transparent; margin: 1.5em;}
-    @media screen and (min-width:700px){.sectionHero img{max-width: 600px;}}
     .sectionHero h1{ font-family: "Ephesis"; font-size: 3.7em; font-weight: bold; text-align: center;}
     .sectionHero p{text-align: center; width: 90%; padding: 1rem; margin: auto; font-size: 2rem;}
     .sectionHero span{text-align: center; align-items: center;width: 100%; margin: auto;}
     .sectionHero a{ padding: 1px;}
     .sectionHero a:hover{ text-decoration: underline; color: #0a0a23;}
     .imgInferior{width: 50em; height: 25em; margin: auto; width: 100%; display: -webkit-inline-flex;}
-/*𝖊𝖓𝖉 𝖘𝖊𝖈𝖙𝖎𝖔𝖓 𝖍𝖊𝖗𝖔*/
+    @media screen and (min-width:700px){.sectionHero img{max-width: 600px;}}
+    @media screen and (max-width:400px){
+      .sectionHero img{
+        width: 5em;
+        height: 5em;
+        margin: 5px;
+      }
+
+      .sectionHero h1{
+        /*border: var(--borde-elemento);*/
+        font-size: 20px;
+        width: 100%;
+        padding: 0px;
+        margin: 5px;
+      }
+
+      .sectionHero p{
+        /*border: var(--borde-elemento);*/
+        font-size: 18px;
+        text-align: justify;
+        width: 100%;
+        padding: 0px;
+        margin-top: 15px;
+        
+      }
+    }
+    /*𝖊𝖓𝖉 𝖘𝖊𝖈𝖙𝖎𝖔𝖓 𝖍𝖊𝖗𝖔*/
