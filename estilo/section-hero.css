@@ -9,7 +9,7 @@
         justify-content: center; margin:5px; width: 50%;}
   /*SELECTORES DE CLASE:*/
     .sectionHero{padding: 3rem; margin: auto; justify-content: center; text-align: center;}
-    .sectionHero img{ padding: 0px; height: 10em; width: 10em; border-radius: 50%; background: transparent; margin: 1.5em;}
+    .sectionHero img{ padding: 0px; height: 18em; width: 18em; border-radius: 50%; background: transparent; margin: 1.5em; border: 4px double black; margin-top: 0px;}
     .sectionHero h1{ font-family: "Ephesis"; font-size: 3.7em; font-weight: bold; text-align: center;}
     .sectionHero p{text-align: center; width: 90%; padding: 1rem; margin: auto; font-size: 2rem;}
     .sectionHero span{text-align: center; align-items: center;width: 100%; margin: auto;}
@@ -40,6 +40,10 @@
         padding: 0px;
         margin-top: 15px;
         
+      }
+
+      .imgInferior{
+        display: none;
       }
     }
     /*𝖊𝖓𝖉 𝖘𝖊𝖈𝖙𝖎𝖔𝖓 𝖍𝖊𝖗𝖔*/
