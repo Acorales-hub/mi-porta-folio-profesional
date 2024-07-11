@@ -5,7 +5,7 @@
 
           /*SECCIÓN PROYECTOS*/
         .proyectos-recientes{
-          border: var(--borde-elemento);
+          /*border: var(--borde-elemento);*/
           padding: 2em;
           width: 100%;
         }
@@ -26,7 +26,13 @@
           border-radius: 20px;
           display: block;
           transition: all .2s ease;
-          background-color: #1b1b32;
+          background-color: #44447a;
+          color: #e2e2ea;
+          text-align: center;
+          text-justify:inter-cluster;
+          font-size: 20px;
+          font-style: italic;
+          font-weight: bold;
         }
 
         .proyectos-contenedor{
@@ -89,5 +95,25 @@
 
         .proyecto:hover .overlay{
           opacity: 1;
+        }
+
+        @media screen and (max-width:400px){
+          .seccion-descripcion{
+            display: none;
+          }
+
+          .proyectos-recientes h2{
+            font-size: 22px;
+            padding: 3px;
+            width: 100%;  
+            padding-bottom: 4px;
+            border-radius: 5px;
+            background: #1b1b32;
+            color: #e2e2ea;
+          }
+
+          .proyectos-recientes img{
+            margin: 1px;
+          }
         }
       /*FIN DE LA SECCIÓN PROYECTOS*/
