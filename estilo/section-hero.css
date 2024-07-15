@@ -17,7 +17,7 @@
     .sectionHero a:hover{ text-decoration: underline; color: #0a0a23;}
     .imgInferior{width: 50em; height: 25em; margin: auto; width: 100%; display: -webkit-inline-flex;}
     @media screen and (min-width:700px){.sectionHero img{max-width: 600px;}}
-    @media screen and (max-width:400px){
+    @media screen and (max-width:658px){
       .sectionHero img{
         width: 5em;
         height: 5em;
