@@ -1,0 +1,22 @@
+:root{
+    --borde-element:1px solid black;
+}
+
+.articulos{
+    /*border: var(--borde-element);*/
+    width: 100%;
+    min-height: 250px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.articulos .card{
+    width: 100%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.card-header{
+    font-weight: bold;
+}
