@@ -10,9 +10,9 @@
     .about-me a:hover{text-decoration: underline;}
 
     @media screen and (max-width:498px) {
-    .about-me, p, h2{
+   /* .about-me, p, h2{
       border:1px solid yellow;
-    }
+    }*/
 
     .about-me
     {
