@@ -17,7 +17,7 @@
   .section-experiencia div:hover i{ background-color: #7ade30; color: #0a0a23;}
   .section-experiencia h1,h2,h3,p{text-align: center; margin: 15px;}
 
-  @media screen and (max-width:498px){
+  @media screen and (max-width:798px){
     .section-experiencia{flex-direction: column;}
     .section-experiencia div{
       width: 100%;
