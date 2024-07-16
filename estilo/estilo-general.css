@@ -1,10 +1,11 @@
 /*ESTILOS GENERALES*/
 
-body {display: flex;
+body {
+    border: 0px;
+    margin: 0px;
+    display: flex;
     flex-direction: column;
-    min-height: 100vh;
     height: 100%;
-    margin: auto;
     background-color: #d9dbdd;
 }
 
