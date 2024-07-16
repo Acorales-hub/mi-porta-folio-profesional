@@ -10,9 +10,10 @@
 }
 
 .testimonios{
-    border:var(--borde-element);
+   /* border:var(--borde-element);*/
     width: 100%;
     padding: 10px 40px 10px 40px;
+    margin-bottom: 3rem;
 }
 
 .testimonios h3{
@@ -35,6 +36,7 @@
     align-items: center;
     justify-content: center;
     background-color: #d0c9c9;
+    border-radius: 15px;
 }
 
 .testimonios-imagen{
