@@ -12,6 +12,7 @@
     box-shadow: 5px 5px 20px 1px #ffffff;
     color: #fff;
     margin: auto;
+    z-index: 1;
 }
 
 .contacto-titulo {

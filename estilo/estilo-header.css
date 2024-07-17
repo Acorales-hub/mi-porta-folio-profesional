@@ -1,33 +1,56 @@
-/*S̅T̅Y̅L̅E̅ H̅E̅A̅D̅E̅R̅*/
-.cabecera{ 
-    overflow:-moz-hidden-unscrollable;  padding: 1rem;}
-.cabecera a{ color: white;
+        /*S̅T̅Y̅L̅E̅ H̅E̅A̅D̅E̅R̅*/
+        .cabecera { 
+            overflow: hidden;  
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 100%;
+        }
 
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
+        .cabecera a { 
+            color: white;
+        }
 
-}
-.cabecera a:hover{color: #e8e8f0; text-decoration: underline;}
-.cabecera div{padding: 1px;}
-.page-header{ margin: auto; display: -webkit-inline-flex; margin-top: 0.3em; text-align: center;}
-.page-header img{padding: 4px;}
-@media screen and (max-width:1299px){
-    .page-header img{display: none;}
-}
+        .cabecera a:hover {
+            color: #e8e8f0; 
+            text-decoration: underline;
+        }
 
-@media screnn and (max-width:498px){
-    .cabecera{
-        padding: 0px;
-        width: 100%;
-    }
+        .cabecera div {
+            padding: 1px;
+        }
 
-    .cabecera h1{
-        font-size: 12px;
-    }
+        .page-header { 
+            margin: auto; 
+            display: -webkit-inline-flex; 
+            display: inline-flex; /* Añadido para asegurar compatibilidad */
+            margin-top: 0.3em; 
+            text-align: center;
+        }
 
-    .cabecera .nav-item{
-        margin: 0px;
-    }
-}
-/*E̲N̲D̲ S̲T̲Y̲L̲E̲ H̲E̲A̲D̲E̲R̲*/
+        .page-header img {
+            padding: 4px;
+        }
+
+        @media screen and (max-width: 1299px) {
+            .page-header img {
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 498px) { /* Corregido el error tipográfico */
+            .cabecera {
+                padding: 0;
+                width: 100%;
+            }
+
+            .cabecera h1 {
+                font-size: 12px;
+            }
+
+            .cabecera .nav-item {
+                margin: 0;
+            }
+        }
+        /*E̲N̲D̲ S̲T̲Y̲L̲E̲ H̲E̲A̲D̲E̲R̲*/
