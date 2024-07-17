@@ -23,7 +23,9 @@ footer {
     font-family: "Quicksand", sans-serif;
     font-weight: bold;
     text-shadow: 0 0 19px #e0cb16;
+    font-style: unset;
 }
+
 
 .iconos-redes-sociales {
     padding: 2rem;
@@ -51,6 +53,12 @@ footer {
 .iconos-redes-sociales a:hover {
     border:3px solid #e0cb16; /* Añade un color de borde diferente al pasar el cursor */
     box-shadow: 0px 0px 13px 12px #e0cb16;
+    background-color: #0a0a23;
+}
+
+.iconos-redes-sociales a:hover i{
+    color: #b3aa03;
+    
 }
 
 .iconos-redes-sociales i {
