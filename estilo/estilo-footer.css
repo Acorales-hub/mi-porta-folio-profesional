@@ -49,21 +49,35 @@ footer {
     align-items: center;
     justify-content: center;
     transition: all 0.2s ease-in;
+    animation: none; /* Para asegurarnos que no se anima por defecto */
 }
 
 .iconos-redes-sociales a:hover {
-    border:3px solid #e0cb16; /* Añade un color de borde diferente al pasar el cursor */
+    border: 3px solid #e0cb16; /* Añade un color de borde diferente al pasar el cursor */
     box-shadow: 0px 0px 13px 12px #e0cb16;
     background-color: #0a0a23;
+    animation: bounce 2s; /* Aplica la animación de rebote al pasar el cursor */
 }
 
-.iconos-redes-sociales a:hover i{
+.iconos-redes-sociales a:hover i {
     color: #b3aa03;
-    
 }
 
 .iconos-redes-sociales i {
     color: #fff;
     font-size: 1.7rem;
 }
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
 
