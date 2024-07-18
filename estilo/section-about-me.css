@@ -2,7 +2,14 @@
 
   /*ⓢⓔⓒⓣⓘⓞⓝ ⓐⓑⓞⓤⓣ ⓜⓔ*/
     /*SELECTORES DE CLASE:*/
-    .about-me{ width: 100%; padding: 2rem; background-color: #0a0a23; color: white;}
+    .about-me{ 
+      width: 100%; 
+      padding: 2rem; 
+      background-color: #0a0a23; 
+      color: white;
+      border: 1px solid yellow;
+    }
+
     .about-me section{ width: 100%; padding: 2rem; margin: auto;}
     .about-me h2{font-family: "Rubik Dirt"; font-size: 2.5rem;}
     .about-me p{ padding: 1rem; width: 70%; text-align: center; margin: auto; font-size: 1.5em;}
