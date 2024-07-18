@@ -1,13 +1,9 @@
 /*🆂🆃🆈🅻🅴🆂 🅵🅾🆁 🆂🅴🅲🆃🅸🅾🅽🆂*/
-:root{
-  --borde-elemento: 1px solid black;
-}
-
-          /*SECCIÓN PROYECTOS*/
+  /*SECCIÓN PROYECTOS*/
         .proyectos-recientes{
-          /*border: var(--borde-elemento);*/
-          padding: 2em;
-          width: 99.6%;
+          
+          padding: 1.7em;
+          width: 99.1%;
         }
 
         .seccion-descripcion{
@@ -77,9 +73,9 @@
         }
 
         .overlay i:hover{
-          color: #e2e2ea;
-          background-color: #0a0a0a;
+          color: #383879;
           border-radius: 100%;
+          text-shadow: 5px 1px 2px #1b1b32;
         }
 
         .proyecto{
@@ -128,4 +124,4 @@
             margin: 1px;
           }
         }
-      /*FIN DE LA SECCIÓN PROYECTOS*/
+  /*FIN DE LA SECCIÓN PROYECTOS*/

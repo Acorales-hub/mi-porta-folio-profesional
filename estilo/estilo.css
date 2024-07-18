@@ -3,9 +3,8 @@
 *       ᑕᎯ⟆⊂Ꭿᖱ∈ ⟆𝜏Ⴘ𝘭∈ ⟆ᖺ∈∈𝜏                *
 *      🅵🅾🆁 🅼🆈 🅱🆁🅸🅴🅵🅲🅰🆂🅴.         *
 **********************************************/
-
-@import url('estilo-header.css');
 @import url('estilo-general.css');
+@import url('estilo-header.css');
 /*🆂🆃🆈🅻🅴🆂 🅵🅾🆁 🆂🅴🅲🆃🅸🅾🅽🆂*/
   @import url('section-hero.css');
   @import url('section-about-me.css');
@@ -23,4 +22,4 @@ section {
   align-items: center;
   justify-content: center; 
   margin:5px; width: 50%;
-  border: 1px solid black}
+  }
