@@ -35,6 +35,17 @@
             padding: 4px;
         }
 
+        .nav{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content:space-evenly;
+            padding: 1rem;
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+
         @media screen and (max-width: 1299px) {
             .page-header img {
                 display: none;
