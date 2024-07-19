@@ -4,19 +4,36 @@
 
 .articulos{
     /*border: var(--borde-element);*/
-    width: 99.1%;
+    width: 100%;
     min-height: 250px;
     margin: 0px;
     padding: 0px;
-}
+    border:var(--borde-element);
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .articulos .card{
     width: 100%;
-    max-width: 600px;
+    max-width: 700px;
     margin: 20px;
 }
 
 .card-header{
     font-weight: bold;
+}
+
+@media screen and (max-width:500px) {
+    .articulos{
+        padding: 0px;
+    }
+
+    .articulos .card{
+        width: 100%;
+        max-width: 600px;
+        margin: 1px;
+    }
 }
