@@ -1,5 +1,6 @@
 :root {
     --borde-element: 4px double #fff;
+    --sobra-tex-contacto:2px 1px 1px black;
 }
 
 .contacto {
@@ -18,11 +19,13 @@
 .contacto-titulo {
     font-family: "Rubik Dirt", sans-serif;
     font-size: 1.8rem;
+    text-shadow: var(--sobra-tex-contacto);
 }
 
 .contacto .contacto-descripcion {
     color: #fff;
     font-size: 1.1rem;
+    text-shadow: 0px 0px 9px black;
 }
 
 .contacto .boton {
@@ -59,6 +62,6 @@
     font-size: 1.4rem;
     font-weight: bolder;
     text-align: center;
-    text-shadow: 2px 1px 1px black;
+    text-shadow: var(--sobra-tex-contacto);
     margin: 0px;
 }
