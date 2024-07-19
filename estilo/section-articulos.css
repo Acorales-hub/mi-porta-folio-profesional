@@ -8,7 +8,6 @@
     min-height: 250px;
     margin: 0px;
     padding: 0px;
-    border:var(--borde-element);
 
     display: flex;
     flex-direction: column;
