@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
-    padding: 0px;
+    padding: .2rem;
     
   }
 
@@ -16,6 +16,7 @@
     padding: 0.4em; 
     border-radius: 5px; 
     width: 33%; 
+    height: 100%;
     margin: 0.4px;
     background-color: #f5f5fb; 
     text-align: center;
@@ -37,7 +38,7 @@
   .section-experiencia div:hover i{ background-color: #7ade30; color: #0a0a23;}
   .section-experiencia h1,h2,h3,p{text-align: center; margin: 15px;}
 
-  @media screen and (max-width:798px){
+  @media screen and (max-width:1025px){
     .section-experiencia{flex-direction: column;}
     .section-experiencia div{
       width: 100%;
