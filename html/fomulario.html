@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario Responsive</title>
+  <link rel="stylesheet" href="../estilo/estilo-form-testimonio.css">
+</head>
+<body>
+  <div class="form-container">
+    <form id="testimonialForm">
+      <div class="form-group">
+        <label for="image">Imagen</label>
+        <input type="file" id="image" name="image" required>
+      </div>
+      <div class="form-group">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="position">Cargo</label>
+        <input type="text" id="position" name="position" required>
+      </div>
+      <div class="form-group">
+        <label for="contact">Número de contacto</label>
+        <input type="tel" id="contact" name="contact" required>
+      </div>
+      <div class="form-group">
+        <label for="testimonial">Testimonio</label>
+        <textarea id="testimonial" name="testimonial" rows="5" required></textarea>
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+
+  <script src="../js/valida-form-testimonio.js"></script>
+</body>
+</html>

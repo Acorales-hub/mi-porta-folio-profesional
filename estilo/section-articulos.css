@@ -3,9 +3,7 @@
 }
 
 .articulos{
-    /*border: var(--borde-element);*/
     width: 100%;
-    min-height: 250px;
     margin: 0px;
     padding: 0px;
 
